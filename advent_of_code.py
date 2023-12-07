@@ -77,9 +77,6 @@ def suma_leer_numeros2b(ruta_fichero):
                             encontrado = True
                     if encontrado == True:
                         break  
-#                    if palabra in dict_num_escritos.values():
-#                        l.append(list(dict_num_escritos.keys())[list(dict_num_escritos.values()).index(palabra)])
-#                        palabra = ""
             num = int(str(l[0]) + str(l[-1]))
             suma = suma + num
     return suma
